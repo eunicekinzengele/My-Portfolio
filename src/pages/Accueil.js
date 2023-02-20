@@ -4,7 +4,7 @@ import Apropos from "./Apropos";
 
 export default function Accueil() {
   return (
-    <div className="bg-zinc-600">
+    <div className="bg-zinc-600 max-w-full">
       <section>
         <header className="bg-zinc-700 h-14 flex max-w-full">
           <div className="ml-8">
