@@ -24,7 +24,11 @@ export default function Apropos() {
             n’a pas été écrit
           </p>
         </div>
-        <div className="border-2 w-1/2">hey</div>
+        <div className="text-white font-newFamilly1 text-2xl  w-1/2">
+            <p>Nom: Eunice Kinzengele</p>
+            <p  className=""></p>
+            
+        </div>
       </div>
     </div>
   );
