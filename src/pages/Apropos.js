@@ -24,7 +24,7 @@ export default function Apropos() {
             n’a pas été écrit
           </p>
         </div>
-        <div className="text-white font-newFamilly1 text-2xl border-2 w-1/2">
+        <div className="text-white font-newFamilly1 text-2xl  w-1/2">
             <p className=" border-b-2 border-stone-600 w-96 py-5">Nom: Eunice Kinzengele</p>
             <p className=" border-b-2 border-stone-600 w-96 py-5">Email: eunicekinzengele0@gmail.com</p>
             <p className=" border-b-2 border-stone-600 w-96 py-5">Téléphone: 0815959679</p>
