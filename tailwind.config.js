@@ -16,21 +16,7 @@ module.exports = {
     textUnderlineOffset: {
       17: '17px',
     },
-    space: {
-      '67%': '67%',
-    }
   },
-  space: {
-    '63%': '63%',
-  },
-  space: {
-    '69%': '69%',
-  },
-  space: {
-    '50%': '50%',
-  },
-  space: {
-    '56%': '56%',
-  },
+ 
   plugins: [],
 }

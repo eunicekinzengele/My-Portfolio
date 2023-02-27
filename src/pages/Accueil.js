@@ -2,6 +2,7 @@ import React from "react";
 import HeroBar from "./HeroBar";
 import Apropos from "./Apropos";
 import Competence from './Competence';
+import Realisations from './Realisations';
 
 export default function Accueil() {
   return (
@@ -32,6 +33,7 @@ export default function Accueil() {
       <HeroBar />
       <Apropos />
       <Competence/>
+      <Realisations/>
     </div>
   );
 }
