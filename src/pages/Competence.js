@@ -17,10 +17,26 @@ export default function Competence() {
             Les téchnologies avec lesquelles je travaille:
           </p>
         </div>
-        <div className=" mx-20 bg-orange-500 w-1/2 ">
-          <div className=" border-b-4 border-white w-full flex font-semibold py-1 ">
+        <div className=" mx-20 w-1/2 ">
+          <div className=" border-b-8 border-emerald-400 w-3/4 space-x-[67%] flex pt-5 font-semibold py-1 ">
             <p>Javascript</p>
-            <p className="">70%</p>
+            <p className=" border-2 px-3 rounded-md border-emerald-400">70%</p>
+          </div>
+          <div className=" border-b-8 border-emerald-400 w-3/5 space-x-[63%] flex pt-5  font-semibold py-1 ">
+            <p>ReactJs</p>
+            <p className=" border-2 px-3 rounded-md border-emerald-400">60%</p>
+          </div>
+          <div className=" border-b-8 border-emerald-400 w-4/5 space-x-[69%] flex pt-5  font-semibold py-1 ">
+            <p>Wordpress</p>
+            <p className=" border-2 px-3 rounded-md border-emerald-400">80%</p>
+          </div>
+          <div className=" border-b-8 border-emerald-400 w-2/5 space-x-[50%] flex pt-5  font-semibold py-1 ">
+            <p>NodeJs</p>
+            <p className=" border-2 px-3 rounded-md border-emerald-400">40%</p>
+          </div>
+          <div className=" border-b-8 border-emerald-400 w-3/6 space-x-[56%] flex pt-5  font-semibold py-1 ">
+            <p>Express</p>
+            <p className=" border-2 px-3 rounded-md border-emerald-400">50%</p>
           </div>
         </div>
       </div>
