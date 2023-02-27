@@ -1,6 +1,7 @@
 import React from "react";
 import HeroBar from "./HeroBar";
 import Apropos from "./Apropos";
+import Competence from './Competence';
 
 export default function Accueil() {
   return (
@@ -30,6 +31,7 @@ export default function Accueil() {
       </section>
       <HeroBar />
       <Apropos />
+      <Competence/>
     </div>
   );
 }

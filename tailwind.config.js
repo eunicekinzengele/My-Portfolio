@@ -15,6 +15,9 @@ module.exports = {
     },
     textUnderlineOffset: {
       17: '17px',
+    },
+    spacing:{
+      '100rem' : '100rem',
     }
   },
   plugins: [],
