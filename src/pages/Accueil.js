@@ -5,6 +5,7 @@ import Competence from './Competence';
 import Realisations from './Realisations';
 import Services from './Services';
 import Contact from './Contact';
+import Footer from './Footer';
 
 export default function Accueil() {
   return (
@@ -38,6 +39,7 @@ export default function Accueil() {
       <Realisations/>
       <Services/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
