@@ -6,7 +6,6 @@ import image3 from '../Images/image3.png'
 import image4 from '../Images/image4.png'
 import image5 from '../Images/image5.png'
 
-
 export default function Realisations() {
   return (
     <div className="bg-stone-900 h-auto">
@@ -17,16 +16,13 @@ export default function Realisations() {
         <div className=" w-72 h-auto space-y-3 ">
           <Image className=" max-w-full" src={image1} alt="fistImage"/>
           <Image className=" max-w-full" src={image2} alt="fistImage"/>
-
         </div>
         <div className=" w-72 h-auto">
         <Image className=" max-w-full" src={image3} alt="fistImage"/>
-
         </div>
         <div className=" w-72 h-auto space-y-3">
         <Image className=" max-w-full" src={image4} alt="fistImage"/>
         <Image className=" max-w-full" src={image5} alt="fistImage"/>
-
         </div>
       </div>
     </div>
