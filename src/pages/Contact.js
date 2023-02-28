@@ -40,7 +40,7 @@ export default function Contact() {
           <h2 className=" text-xl font-semibold pb-4">Laissez un mot</h2>
           <div className=" flex space-x-7">
             <input
-              className=" w-64 h-10 rounded-md bg-zinc-600 placeholder: text-red-500"
+              className=" w-64 h-10 rounded-md bg-zinc-600 placeholder:"
               placeholder="votre nom"
               type="text"
               id="name"
@@ -62,6 +62,11 @@ export default function Contact() {
               id="message"
               name="message"
             />
+          </div>
+          <div className=" ml-60">
+            <button className="bg-emerald-400 p-2 text-lg rounded-xl font-semibold">
+              Envoyer
+            </button>
           </div>
         </div>
       </div>
