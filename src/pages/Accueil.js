@@ -4,6 +4,7 @@ import Apropos from "./Apropos";
 import Competence from './Competence';
 import Realisations from './Realisations';
 import Services from './Services';
+import Contact from './Contact';
 
 export default function Accueil() {
   return (
@@ -36,6 +37,7 @@ export default function Accueil() {
       <Competence/>
       <Realisations/>
       <Services/>
+      <Contact/>
     </div>
   );
 }
