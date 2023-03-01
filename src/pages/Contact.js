@@ -9,7 +9,7 @@ import whatsappIcon from "../Images/whatsappIcon.png";
 
 export default function Contact() {
   return (
-    <div className="bg-stone-900 h-auto">
+    <div id="contact" className="bg-stone-900 h-auto">
       <h1 className="text-white text-center pt-10 font-bold text-4xl underline underline-offset-[17px] decoration-3 decoration-emerald-400 font-newFamilly1">
         Contact
       </h1>

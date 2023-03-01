@@ -16,7 +16,7 @@ export default function HeroBar() {
         <p className="text-xl">
           Developpeuse web et mobile vivant en République démocratique du congo
         </p>
-        <button className="bg-emerald-400 my-7 p-2 text-lg rounded-full font-semibold">
+        <button className="bg-emerald-400 my-7 p-2 text-lg rounded-full font-semibold hover:bg-gradient-to-t from-emerald-500 hover:bg-orange-400 hover:text-white">
           Télécharger mon CV
         </button>
       </div>

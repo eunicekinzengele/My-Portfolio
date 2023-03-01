@@ -5,9 +5,9 @@ import pencilIcon from "../Images/pencilIcon.png";
 
 export default function Services() {
   return (
-    <div className=" bg-zinc-600 h-auto font-newFamilly1">
+    <div id="service" className=" bg-zinc-600 h-auto font-newFamilly1">
       <h1 className="text-white text-center pt-10 font-bold text-4xl underline underline-offset-[17px] decoration-3 decoration-emerald-400 font-newFamilly1">
-        Compétences
+        Services
       </h1>
       <div className="max-w-full pt-16 pb-32 flex text-white ">
         <div className="w-1/2 flex justify-center">
