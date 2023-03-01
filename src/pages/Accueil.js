@@ -17,16 +17,16 @@ export default function Accueil() {
               Eunice Kinzengele
             </h1>
           </div>
-          <div className="ml-44 font-newFamilly1">
-            <ul className="flex text-white">
-              <li className="p-4">Accueil</li>
-              <li className="p-4">A propos</li>
-              <li className="p-4">Compétences</li>
-              <li className="p-4">Réalisation</li>
-              <li className="p-4">Services</li>
+          <div className="ml-40 font-newFamilly1">
+            <ul className="flex text-white items-center p-3 space-x-6">
+              <li className="bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Accueil</li>
+              <li className="bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">A propos</li>
+              <li className="bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Compétences</li>
+              <li className=" bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Réalisation</li>
+              <li className=" bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Services</li>
             </ul>
           </div>
-          <div className="ml-10 p-2.5 ">
+          <div className=" content-center flex items-center flex-col w-44 p-2.5 ">
             <button className="border-2 border-emerald-400 text-emerald-400  rounded-2xl p-1 font-newFamilly1">
               Contact
             </button>
