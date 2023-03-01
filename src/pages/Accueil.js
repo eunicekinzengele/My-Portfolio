@@ -19,15 +19,15 @@ export default function Accueil() {
           </div>
           <div className="ml-40 font-newFamilly1">
             <ul className="flex text-white items-center p-3 space-x-6">
-              <li className="bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Accueil</li>
-              <li className="bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">A propos</li>
-              <li className="bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Compétences</li>
-              <li className=" bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Réalisation</li>
-              <li className=" bg-gradient-to-t rounded-2xl p-1 from-emerald-500 hover:bg-orange-400">Services</li>
+              <li className="bg-gradient-to-t  from-emerald-500 hover:bg-orange-400 rounded-2xl p-1">Accueil</li>
+              <li className="bg-gradient-to-t  from-emerald-500 hover:bg-orange-400 rounded-2xl p-1">A propos</li>
+              <li className="bg-gradient-to-t  from-emerald-500 hover:bg-orange-400 rounded-2xl p-1">Compétences</li>
+              <li className=" bg-gradient-to-t from-emerald-500 hover:bg-orange-400 rounded-2xl p-1">Réalisation</li>
+              <li className=" bg-gradient-to-t from-emerald-500 hover:bg-orange-400 rounded-2xl p-1">Services</li>
             </ul>
           </div>
           <div className=" content-center flex items-center flex-col w-44 p-2.5 ">
-            <button className="border-2 border-emerald-400 text-emerald-400  rounded-2xl p-1 font-newFamilly1">
+            <button className="border-2 border-emerald-400 text-emerald-400  rounded-2xl p-1 font-newFamilly1 hover:bg-gradient-to-t from-emerald-500 hover:bg-orange-400 hover:text-white ">
               Contact
             </button>
           </div>
