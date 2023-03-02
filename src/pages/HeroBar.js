@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import HeroImg from "../Images/HeroPhoto.png";
+
 
 export default function HeroBar() {
   return (
@@ -16,9 +18,11 @@ export default function HeroBar() {
         <p className="text-xl">
           Developpeuse web et mobile vivant en République démocratique du congo
         </p>
+        <Link href="">
         <button className="bg-emerald-400 my-7 p-2 text-lg rounded-full font-semibold hover:bg-gradient-to-t from-emerald-500 hover:bg-orange-400 hover:text-white">
           Télécharger mon CV
         </button>
+        </Link>
       </div>
       <div className="w-1/2 items-center justify-center flex mb-28">
         <Image className="w-8/12 " src={HeroImg} alt="HeroImgage" />

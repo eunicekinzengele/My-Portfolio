@@ -13,7 +13,7 @@ export default function Accueil() {
   return (
     <div id="accueil" className="bg-zinc-600 max-w-full">
       <section>
-        <header className="bg-zinc-700 h-14 flex max-w-full">
+        <header className="bg-zinc-700 h-14 flex max-w-full fixed">
           <div className="ml-8">
             <Link href="#accueil">
             <h1 className="text-xl font-semibold text-white p-3 font-newFamilly1">
